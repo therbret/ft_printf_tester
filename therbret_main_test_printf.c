@@ -6,7 +6,7 @@
 /*   By: therbret <therbret@gmx.com>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/12/02 17:20:03 by therbret          #+#    #+#             */
-/*   Updated: 2020/01/04 03:48:31 by therbret         ###   ########.fr       */
+/*   Updated: 2020/01/06 04:14:12 by therbret         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -780,19 +780,19 @@ void test_neg_prec()
 int main(void)
 {
 	setbuf(stdout, NULL);
-//	test_c();
-//	test_all_char();
-//	test_percent();
-//	test_s();
-//	test_u();
-//	test_x();
-//	test_p();
-//	test_int_min();
-//	test_int_max();
-//	test_int_basic();
-//	test_neg_prec();
+	test_c();
+	test_all_char();
+	test_percent();
+	test_s();
+	test_u();
+	test_x();
+	test_p();
+	test_int_min();
+	test_int_max();
+	test_int_basic();
+	test_neg_prec();
 	test_uint_basic();
-//	test_abourin();
+	test_abourin();
 
 //	if (fail_nb)
 //		PRINTF_CHECK_RETURN(RED "%i return fails" RESET, fail_nb);
