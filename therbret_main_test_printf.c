@@ -6,7 +6,7 @@
 /*   By: therbret <therbret@gmx.com>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/12/02 17:20:03 by therbret          #+#    #+#             */
-/*   Updated: 2020/01/06 04:14:12 by therbret         ###   ########.fr       */
+/*   Updated: 2020/01/12 23:01:11 by therbret         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,7 @@
 # define PRINTF printf
 #endif
 
-#define PRINTF_CHECK_RETURN PRINTF("\nreturn :%i\n", PRINTF
+#define PRINTF_CHECK_RETURN PRINTF("\nreturn :%i |", PRINTF
 
 int		ft_printf(const char * restrict format, ...);
 
