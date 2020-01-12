@@ -4,6 +4,6 @@ How to use:
 
 -copy your libftprintf.a in the test directory
 
--run the .sh script (you can edit it to choose between using fsanitize (default) or checking leaks)
+-run the .sh script of your choosing (to test leaks or use fsanitize)
 
 -enjoy
