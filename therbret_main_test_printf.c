@@ -6,12 +6,12 @@
 /*   By: therbret <therbret@gmx.com>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/12/02 17:20:03 by therbret          #+#    #+#             */
-/*   Updated: 2020/01/13 01:48:48 by therbret         ###   ########.fr       */
+/*   Updated: 2020/01/13 01:56:30 by therbret         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-/*			SUCH TESTS.
-										MUCH STYLE.
+/*		SUCH TESTS.
+							MUCH STYLE.
 
 I SUCK AT SCRIPTS. go to line <test_number + 100> to find the matching test
 https://vim.fandom.com/wiki/Go_to_line
