@@ -6,7 +6,7 @@
 /*   By: therbret <therbret@gmx.com>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/12/02 17:20:03 by therbret          #+#    #+#             */
-/*   Updated: 2020/01/13 01:56:30 by therbret         ###   ########.fr       */
+/*   Updated: 2020/01/13 02:01:32 by therbret         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** **
 
@@ -61,9 +61,9 @@ https://vim.fandom.com/wiki/Go_to_line
              -/ossooo+//::::////+++oooossyyyhhhhdddddddmmmmmmmmmmmmmdmmmmmmmdho*/
              #include <stdio.h>//`+++oosssssyyyhhhdddddmmmmmmmmmmmmmmmmmmmmmmdh+`.
             #include <errno.h>//`/+++oosssssyyhhhhhhddddmmmmmmmmmmmmmmmmNmmmmmdy+`.
-            #include <limits.h>//+/++++ooossssyyhhhhhhdhdddmmmmmmmmmmmmmmNmmmmmddhs:
-           #include <stdlib.h>//+++//+/++oossssyyyhhhhddddddddmmmmmmmmmmmmmNmmmmddhh\
-          //good doggo, fetching headers like a good doggo \ddmmmmmmmmmmmmmmmmmmmmmdh+
+            #include <limits.h>//+/++++ooossssyyhhhhhhdhdddmmmmmmmmmmmmmmNmmmmddhs:
+           #include <stdlib.h>//+++//+/++oossssyyyhhhhddddddddmmmmmmmmmmmmmNmmmddhh.
+           //good doggo, fetching headers like a good doggo \ddmmmmmmmmmmmmmNmmmmmdh.
 
 	#define RED "\x1b[31m"
 	#define RESET "\x1b[0m"
@@ -708,6 +708,7 @@ void lots_of_tests()
 
 void test_all_char()
 {
+	unsigned int	test_number = 0;
 	char c = 0;
 	do
 		PRINTF_CHECK_RETURN("%*c", 2, c));
