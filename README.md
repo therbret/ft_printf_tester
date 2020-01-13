@@ -6,4 +6,6 @@ How to use:
 
 -run the .sh script of your choosing (to test leaks or use fsanitize)
 
--enjoy
+-in case of error, add 100 to error_number and look at that line in the C source
+
+-sorry the script sucks, this was just a tool to work on my printf
