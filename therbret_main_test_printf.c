@@ -6,7 +6,7 @@
 /*   By: therbret <therbret@gmx.com>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/12/02 17:20:03 by therbret          #+#    #+#             */
-/*   Updated: 2022/02/04 18:08:47 by therbret         ###   ########.fr       */
+/*   Updated: 2022/02/04 19:16:14 by therbret         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** **
 
@@ -147,7 +147,7 @@ void test_all_char()
 	unsigned int	test_number = 0;
 	char c = 0;
 	do
-		PRINTF_CHECK_RETURN("%*c", 2, c));
+		PRINTF_CHECK_RETURN("%c", c));
 	while (c++ < 127);
 }
 
